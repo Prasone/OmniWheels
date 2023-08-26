@@ -167,6 +167,10 @@ ModuleNotFoundError: No module named 'netifaces'
 sudo pip3 install netifaces
 ```
 
+```
+AttributeError: 'NoneType' object has no attribute 'shape'
+```
+
 Jika Camera tidak muncul karena bukan kesalahan perangkat, eksekusi file `camera.py`, bila masih tidak muncul silahkan hapus syntax `threaded=True, debug=True` mejadi seperti dibawah ini pada file `start.py`
 
   ``` bash
